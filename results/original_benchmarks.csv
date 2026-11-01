@@ -1,0 +1,19 @@
+source,location,quantity,value,se
+Taylor (1993),"p. 202, eq. (1)",inflation coefficient (1 + 0.5),1.5,
+Taylor (1993),"p. 202, eq. (1)",output gap coefficient,0.5,
+Taylor (1993),"p. 202, eq. (1)","inflation target, percent",2.0,
+Taylor (1993),"p. 202, eq. (1)","equilibrium real rate, percent",2.0,
+Taylor (1993),"p. 202, eq. (1)","implied intercept, 2 - 0.5 x 2",1.0,
+Taylor (1993),"p. 202, eq. (1)","implied nominal rate at target, percent",4.0,
+Taylor (1993),p. 202,"trend real GDP growth, percent per year",2.2,
+Taylor (1993),p. 202 and Figure 1,first year of the fit window,1987.0,
+Taylor (1993),p. 202 and Figure 1,last year of the fit window,1992.0,
+Taylor (1993),"p. 206, Figure 3","inflation measure: GDP deflator, four quarters",,
+"Clarida, Gali, Gertler (1998 NBER WP 6442)","Table 2, k=4, q=1, 1960:1-1979:2",beta (inflation),0.8,0.09
+"Clarida, Gali, Gertler (1998 NBER WP 6442)","Table 2, k=4, q=1, 1960:1-1979:2",gamma (output gap),0.52,0.12
+"Clarida, Gali, Gertler (1998 NBER WP 6442)","Table 2, k=4, q=1, 1960:1-1979:2",rho (smoothing),0.76,0.04
+"Clarida, Gali, Gertler (1998 NBER WP 6442)","Table 2, k=4, q=1, 1960:1-1979:2",J-test p-value,0.84,
+"Clarida, Gali, Gertler (1998 NBER WP 6442)","Table 2, k=4, q=1, 1979:3-1996:4",beta (inflation),1.96,0.2
+"Clarida, Gali, Gertler (1998 NBER WP 6442)","Table 2, k=4, q=1, 1979:3-1996:4",gamma (output gap),0.07,0.1
+"Clarida, Gali, Gertler (1998 NBER WP 6442)","Table 2, k=4, q=1, 1979:3-1996:4",rho (smoothing),0.66,0.03
+"Clarida, Gali, Gertler (1998 NBER WP 6442)","Table 2, k=4, q=1, 1979:3-1996:4",J-test p-value,0.89,
