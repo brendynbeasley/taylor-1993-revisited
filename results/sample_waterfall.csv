@@ -1,0 +1,28 @@
+step,observations,first,last
+raw FRED FEDFUNDS,867,1954-07-01,2026-09-01
+raw FRED GDPC1,319,1947-01-01,2026-07-01
+raw FRED GDPDEF,319,1947-01-01,2026-07-01
+raw FRED GDPPOT,352,1949-01-01,2036-10-01
+raw FRED PCEPILFE,813,1959-01-01,2026-09-01
+raw FRED CPIAUCSL,956,1947-01-01,2026-09-01
+raw FRED UNRATE,944,1948-01-01,2026-09-01
+raw FRED NROU,352,1949-01-01,2036-10-01
+raw RTDSM ROUTPUT vintage 92Q4,135,1959Q1,1992Q3
+raw RTDSM P vintage 92Q4,135,1959Q1,1992Q3
+"Greenbook real-time gap, one vintage per quarter",134,1987Q3,2020Q4
+"Greenbook real-time deflator inflation, one vintage per quarter",198,1967Q1,2020Q3
+"Kanzig oil supply series, quarterly sums",204,1975Q1,2025Q4
+merged quarterly panel (policy rate observed),271,1959Q1,2026Q3
+"core variables non-missing (rate, inflation, CBO gap)",267,1960Q1,2026Q3
+zero-lower-bound quarters (rate below 0.25),36,2009Q1,2022Q1
+estimation sample taylor_1987_1992,23,1987Q1,1992Q3
+estimation sample greenspan_bernanke,82,1987Q3,2007Q4
+estimation sample pre_volcker,58,1965Q1,1979Q2
+estimation sample cgg_pre_volcker,78,1960Q1,1979Q2
+estimation sample cgg_volcker_greenspan,70,1979Q3,1996Q4
+estimation sample volcker_greenspan,114,1979Q3,2007Q4
+estimation sample post_2008,75,2008Q1,2026Q3
+estimation sample full,247,1965Q1,2026Q3
+estimation sample full_nonzlb,211,1965Q1,2026Q3
+estimation sample realtime_greenbook,98,1987Q3,2020Q1
+estimation sample oil_iv,134,1983Q3,2025Q4

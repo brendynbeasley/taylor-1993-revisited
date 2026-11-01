@@ -1,0 +1,116 @@
+{
+  "sources": {
+    "fred_CPIAUCSL": {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=CPIAUCSL",
+      "file": "data/raw/fred/CPIAUCSL.csv",
+      "retrieved_utc": "2026-11-01T20:38:35Z",
+      "rows": 956,
+      "bytes": 17763,
+      "sha256": "8556b710094027fa4724641d48be620cc37c04abfa15a0c496378cf1146c1549"
+    },
+    "fred_FEDFUNDS": {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=FEDFUNDS",
+      "file": "data/raw/fred/FEDFUNDS.csv",
+      "retrieved_utc": "2026-11-01T20:38:34Z",
+      "rows": 867,
+      "bytes": 13959,
+      "sha256": "74680b2d09bb28f90fb30c1c09e93ac2d443de1b7345ba5a9112b3eca9be0a25"
+    },
+    "fred_GDPC1": {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=GDPC1",
+      "file": "data/raw/fred/GDPC1.csv",
+      "retrieved_utc": "2026-11-01T20:38:34Z",
+      "rows": 319,
+      "bytes": 6548,
+      "sha256": "1c6c6e9f59e383e20c849dd299175c7a307526c09abdc18f18da9754fc5b3343"
+    },
+    "fred_GDPDEF": {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=GDPDEF",
+      "file": "data/raw/fred/GDPDEF.csv",
+      "retrieved_utc": "2026-11-01T20:38:34Z",
+      "rows": 319,
+      "bytes": 5803,
+      "sha256": "30bb0472781765e94efbbeaf63f0056106c5ff3786f6713485d3daff182b6010"
+    },
+    "fred_GDPPOT": {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=GDPPOT",
+      "file": "data/raw/fred/GDPPOT.csv",
+      "retrieved_utc": "2026-11-01T20:38:34Z",
+      "rows": 352,
+      "bytes": 10770,
+      "sha256": "4902611191d6df6cf8bffba4025c31d0aedfc878a47acc6e9ed1c7da48112b22"
+    },
+    "fred_NROU": {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=NROU",
+      "file": "data/raw/fred/NROU.csv",
+      "retrieved_utc": "2026-11-01T20:38:35Z",
+      "rows": 352,
+      "bytes": 10582,
+      "sha256": "cd4f216b8e13072264633d7802f8f9da77fa16cad843dbf4643c5d932ba9a4e4"
+    },
+    "fred_PCEPILFE": {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=PCEPILFE",
+      "file": "data/raw/fred/PCEPILFE.csv",
+      "retrieved_utc": "2026-11-01T20:38:34Z",
+      "rows": 813,
+      "bytes": 14771,
+      "sha256": "8aa0635d4a3e066a0365551faeabc030547a7a313c58c3b18f87b7f0ff1d5f18"
+    },
+    "fred_UNRATE": {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=UNRATE",
+      "file": "data/raw/fred/UNRATE.csv",
+      "retrieved_utc": "2026-11-01T20:38:35Z",
+      "rows": 944,
+      "bytes": 14211,
+      "sha256": "621ff6fadf50910cb7a21ee20ba610c247cb043b29b4e05c4c1a72fadca2a06c"
+    },
+    "greenbook_gap_new": {
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/greenbook-data/Greenbook_Output_Gap_DH_Web.xlsx",
+      "file": "data/raw/greenbook/Greenbook_Output_Gap_DH_Web.xlsx",
+      "retrieved_utc": "2026-11-01T20:38:42Z",
+      "rows": 0,
+      "bytes": 316484,
+      "sha256": "da5eb3367b20554307d23604ec0554fd964850ccbe716eac809efda9e5d83534"
+    },
+    "greenbook_gap_prev": {
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/greenbook-data/Greenbook_Output_Gap_Web_Previous_Format.xlsx",
+      "file": "data/raw/greenbook/Greenbook_Output_Gap_Web_Previous_Format.xlsx",
+      "retrieved_utc": "2026-11-01T20:38:42Z",
+      "rows": 134,
+      "bytes": 37295,
+      "sha256": "66610dc4f49ae6b0fd371fb96b680c1aace4733867ac377a1e060fce2770f2bf"
+    },
+    "greenbook_pgdp": {
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/greenbook-data/GBweb/Gbweb_gPGDP_Column_Format.zip",
+      "file": "data/raw/greenbook/Gbweb_gPGDP_Column_Format.zip",
+      "retrieved_utc": "2026-11-01T20:38:42Z",
+      "rows": 198,
+      "bytes": 33223,
+      "sha256": "a19289aeba0a9a841fb00fca720b9822bd4bf7f97d1b25b90b801e9f4f0b3fa6"
+    },
+    "kanzig_oil_supply_news": {
+      "url": "https://raw.githubusercontent.com/dkaenzig/oilsupplynews/master/oilSupplyNewsShocks_2025M12.xlsx",
+      "file": "data/raw/kanzig/oilSupplyNewsShocks_2025M12.xlsx",
+      "retrieved_utc": "2026-11-01T20:38:45Z",
+      "rows": 204,
+      "bytes": 110802,
+      "sha256": "8aa80042f84071ea310b3c2f604b177aed57ee7575e6a18aed5b8ad52ec353de"
+    },
+    "rtdsm_P": {
+      "url": "https://www.philadelphiafed.org/-/media/frbp/assets/surveys-and-data/real-time-data/data-files/xlsx/pqvqd.xlsx",
+      "file": "data/raw/philly_rtdsm/pqvqd.xlsx",
+      "retrieved_utc": "2026-11-01T20:38:41Z",
+      "rows": 135,
+      "bytes": 245803,
+      "sha256": "c9f7336fab2e8559c2730a69c86fb36a5324d2651a81d767491220f637dbedd1"
+    },
+    "rtdsm_ROUTPUT": {
+      "url": "https://www.philadelphiafed.org/-/media/frbp/assets/surveys-and-data/real-time-data/data-files/xlsx/routputqvqd.xlsx",
+      "file": "data/raw/philly_rtdsm/routputqvqd.xlsx",
+      "retrieved_utc": "2026-11-01T20:38:38Z",
+      "rows": 135,
+      "bytes": 243161,
+      "sha256": "25433da00f46764a167590efe5c3e1c20a3e91e98ba0f49e6f92f058bc42c9e3"
+    }
+  }
+}
